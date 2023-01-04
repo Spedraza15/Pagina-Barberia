@@ -1,0 +1,109 @@
+body {
+  font-family: monospace;
+  font-size: 20px;
+}
+#intro {
+  border: 1px solid black;
+  text-align: center;
+  background: #cccccc;
+}
+
+
+
+.block_Titles {
+  height: auto;
+  width: max-content;
+  text-align: center;
+  font-size: 35px;
+  color: #ffffff;
+  padding: 10px 15px;
+  background-color: #ffff4d;
+  border: 1px dashed #8c3fe4;
+  display: flex;
+  justify-content: center;
+  margin-left: 50%;
+  transform: translate(-50%);
+  border-radius: 50px;
+  text-shadow: 3.5px 2px 3px #d13fe4;
+  
+  box-shadow: 6px 6px 4px 1px #ff6600;  
+  
+}
+
+
+p strong em {
+  color: red;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-right: 10px;
+  text-align: left;
+  margin-left: 50%;
+  transform: translate(-80%);
+}
+
+#banner {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+#diferenciales {
+  background-color: antiquewhite;
+  padding-top: 150px;
+  
+}
+
+
+.items {
+  font-style: italic;
+  text-align: justify;
+}
+
+#principal {
+  background-color: #cccccc;
+}
+
+.imgDiferencial {
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 50px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+header {
+
+
+  background-image:  linear-gradient( 
+    
+    rgba(51, 26, 0, 0.5),
+    rgba(102, 53, 0, 0.5)
+
+  ), url(./media/pexels-pixabay-326333.jpg);
+  margin: -60px;
+  
+
+}
+#Titulo_Ppal{
+  color: #cccccc;
+  font-size: 80px;
+  width: auto;
+  padding: 35px 50px 0px 60px ;
+  margin-bottom: 0px;
+  text-size-adjust: auto;
+}
+
+header > h3 {
+  padding-left: 70px;
+  color: #ada8a8;
+  margin-top: -10px;
+}
+
