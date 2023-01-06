@@ -1,0 +1,29 @@
+header {
+    background: #bbbbbb;
+    padding: 20px 0px;
+  }
+  .headerDesktop {
+
+    right: 0;
+    top: 110px;
+  }
+
+  footer {
+    text-align: center;
+    background: url(media/pexels-pixabay-326333.jpg);
+    padding-top: 35px;
+    padding-bottom: 20px;
+    
+  }
+  
+  #footer-logo {
+    width: 177px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+  }
