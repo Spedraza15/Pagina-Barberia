@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css/reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" name="rating" >
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <a href="index.html"
+            ><img src="media/logo.png" alt="logo-Barberia-Alura"
+          /></a>
+  
+          <nav class="headerDesktop">
+            <ul>
+              <li class="link"><a href="index.html">Home</a></li>
+              <li class="link"><a href="productos.html">Productos</a></li>
+              <li class="link"><a href="contacto.html">Contacto</a></li>
+              
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="principal">
+        <form >
+          <fieldset>
+            <label for="nombre_apellido">Nombre &#38 Apellido</label>
+            <input class="input-padron" type="text" name="" id="nombre_apellido" 
+            placeholder="Gustavo Petro" 
+            required>
+
+            <label for="email">Correo electronico</label>
+            <input class="input-padron" type="email" id="email"
+            placeholder="barber.house@gmail.com"
+            required>
+
+            <label for="telephone">Telefono</label>
+            <input class="input-padron" type="tel" id="telephone" 
+            placeholder="(+XX) XXXX-XXXX"
+            required>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea class="input-padron" name="mensaje" id="mensaje" cols="70" rows="10"
+            placeholder="Escribe tu mensage..."></textarea>
+        </fieldset>
+
+          <fieldset class="container">
+            <p>¿ Como te gustaria que te contactemos ?</p>
+            <div>
+
+              
+              <label class="radio-email--contact"for="radio-email" ><input class="radio-email--contact" type="radio" name="contacto" value="email" id="radio-email" required>Email</label>
+            </div>
+
+            
+            <label class="radio-email--contact"for="radio-telefono"><input class="radio-email--contact" type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+            
+            
+            <label class="radio-email--contact" for="radio-whatsapp"><input class="radio-email--contact" type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+          </fieldset>
+
+          <fieldset class="container">
+            <p>¿ En que horario prefieres agendar ?</p>
+            <select>
+              
+              <option value="">Mañana</option>
+              <option value="">Tarde</option>
+              <option value="">Noche</option>
+              
+              
+            </select>
+          </fieldset>
+
+          <fieldset class="novedades container">
+            
+            <p class="checkbox">
+              <input type="checkbox" id="checkbox-novedades">Quiero recibir novedades sobre la barberia</p>
+          </fieldset>
+
+
+          <input class="enviar" type="submit" value="Enviar formulario" >
+
+          
+        </form>
+
+          <table>
+            <thead>
+            <tr>
+              <th>Dia</th>
+              <th>Horario</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td>Lunes y Martes</td>
+              <td>9:00am ~ 9:00pm</td>
+            </tr>
+
+            <tr>
+              <td>Miercoles a Viernes</td>
+              <td>10:00am ~ 10:00pm</td>
+            </tr>
+
+            <tr>
+              <td>Sabado</td>
+              <td>9:00am ~ 12:00pm</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+
+          </tfoot>
+        </table>
+      </main>
+      <footer>
+        <div id="footer-logo">
+            <img  src="media/logo-blanco.png" href="Logo" alt="Logo Alura">
+        </div>
+        <p class="copyright">&copy Copyright The Barber House - 2023</p>
+    </footer>
+    
+</body>
+</html>
